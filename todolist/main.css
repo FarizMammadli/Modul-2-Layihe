@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    width: 336px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-bottom: 19px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+    width: 100%;
+    height: 28px;
+    background-color: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+h1{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 26px;
+    margin-left: 32%;
+    margin-top: 13px;
+}
+
+.img-div{
+  text-align: right ;
+  padding: 10px 30px;
+}
+.g-low , .g-high , .buttonrem{
+   
+  background: none;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+    
+}
+
+.g-low{
+  background-image: url('./images/Group\ 74.png');
+
+}
+.g-high{
+  background-image: url('./images/Group\ 90.png');
+}
+.g-high:hover{
+  background-image: url('./images/Group\ 91.png');
+
+}
+.g-low:hover{
+  background-image: url('./images/Group\ 73.png');
+}
+
+input{
+    
+    margin-left: 28px;
+    margin-right: 22px;
+    width: 280px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+}
+
+.circle-btn {
+    width: 150px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: #833AE0;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+    padding-left: 10px;
+  }
+
+  .circ{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #9953F1;
+  }
+  .button-div{
+    position: relative;
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  .dov{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+  }
+
+  .uldiv{
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .li-clas{
+    
+    word-wrap: break-word;
+    list-style-type: none;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 4px;
+    position: relative;
+    padding: 4px 2px;
+  }
+
+  .buttonrem{
+    background-image: url('./images/Group\ 77.png') ;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+  }
+  .buttonrem:hover{
+    background-image: url('./images/Group\ 70.png') ;
+  }
